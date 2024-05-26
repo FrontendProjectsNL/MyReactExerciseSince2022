@@ -1,0 +1,127 @@
+/* Add your styling here as needed */
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .question-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #ddd;
+  }
+  
+  .option.selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .results-container {
+    text-align: center;
+  }
+  
+  .results-container h2 {
+    color: #333;
+  }
+  
+  .results-container p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* ... (previous styling) */
+
+.question-summary {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .question-summary li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .question-summary li strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .results-container {
+    text-align: center;
+  }
+  
+  .results-container h2 {
+    color: #333;
+  }
+  
+  .results-container p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #45a049;
+  }
+/* ... (previous styling) */
+
+.timer-container {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+    

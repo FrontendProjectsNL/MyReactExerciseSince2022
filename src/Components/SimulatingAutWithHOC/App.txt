@@ -1,0 +1,50 @@
+In mijn App.js moet deze:
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch, Redirect, Link } from 'react-router-dom';
+import LoginPage from './LoginPage';
+import ProtectedComponent from './ProtectedComponent';
+import withAuthentication from './AuthenticationHOC';
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+            <li>
+              <Link to="/protected">Protected Page</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <hr />
+
+        <Switch>
+          <Route exact path="/">
+            <h2>Home</h2>
+          </Route>
+          <Route path="/login">
+            <LoginPage />
+          </Route>
+          <Route path="/protected">
+            {/* Use the protected component wrapped with the authentication HOC */}
+            <AuthenticatedProtectedComponent />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
+      </div>
+    </Router>
+  );
+};
+
+// Apply the HOC to ProtectedComponent
+const AuthenticatedProtectedComponent = withAuthentication(ProtectedComponent);
+
+export default App;

@@ -1,0 +1,14 @@
+{
+    "translation": {
+      "home": "Home",
+      "helloMessage": "Hello all, welcome to my website",
+      "articles": "Articles",
+      "login": "Log in",
+      "username": "Username",
+      "password": "Password",
+      "loginButton": "Login",
+      "about": "About",
+      "aboutMessage": "Hello, this is my about page"
+    }
+  }
+  

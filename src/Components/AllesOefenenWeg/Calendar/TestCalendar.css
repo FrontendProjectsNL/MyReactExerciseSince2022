@@ -1,0 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.calendar {
+  width: 350px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-day.empty {
+  background: red;
+}

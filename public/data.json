@@ -1,0 +1,278 @@
+{
+    "users": 
+    [
+          {
+            "id": 1,
+            "name": "John Doe",
+            "posts": [
+              {
+                "postId": 101,
+                "title": "React.js Basics",
+                "comments": [
+                  {
+                    "commentId": 1001,
+                    "text": "Great post!"
+                  },
+                  {
+                    "commentId": 1002,
+                    "text": "Thanks for sharing."
+                  }
+                ]
+              },
+              {
+                "postId": 102,
+                "title": "State Management in React",
+                "comments": [
+                  {
+                    "commentId": 1003,
+                    "text": "Very informative."
+                  },
+                  {
+                    "commentId": 1004,
+                    "text": "I learned a lot."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Jane Smith",
+            "posts": [
+              {
+                "postId": 103,
+                "title": "Introduction to Python",
+                "comments": [
+                  {
+                    "commentId": 1005,
+                    "text": "Python is awesome!"
+                  },
+                  {
+                    "commentId": 1006,
+                    "text": "I love programming in Python."
+                  }
+                ]
+              },
+              {
+                "postId": 104,
+                "title": "Web Development with Django",
+                "comments": [
+                  {
+                    "commentId": 1007,
+                    "text": "Django makes web development easy."
+                  },
+                  {
+                    "commentId": 1008,
+                    "text": "Looking forward to more Django tutorials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Bob Johnson",
+            "posts": [
+              {
+                "postId": 105,
+                "title": "JavaScript Fundamentals",
+                "comments": [
+                  {
+                    "commentId": 1009,
+                    "text": "Great introduction to JS!"
+                  },
+                  {
+                    "commentId": 1010,
+                    "text": "I enjoyed the examples."
+                  }
+                ]
+              },
+              {
+                "postId": 106,
+                "title": "Asynchronous Programming in JS",
+                "comments": [
+                  {
+                    "commentId": 1011,
+                    "text": "Async programming is tricky but powerful."
+                  },
+                  {
+                    "commentId": 1012,
+                    "text": "Thanks for the clear explanations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Alice Williams",
+            "posts": [
+              {
+                "postId": 107,
+                "title": "Getting Started with Node.js",
+                "comments": [
+                  {
+                    "commentId": 1013,
+                    "text": "Node.js is fantastic for server-side development."
+                  },
+                  {
+                    "commentId": 1014,
+                    "text": "Looking forward to advanced Node.js topics."
+                  }
+                ]
+              },
+              {
+                "postId": 108,
+                "title": "Express.js for Web Applications",
+                "comments": [
+                  {
+                    "commentId": 1015,
+                    "text": "Express.js simplifies web development."
+                  },
+                  {
+                    "commentId": 1016,
+                    "text": "Thanks for the clear examples."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Charlie Brown",
+            "posts": [
+              {
+                "postId": 109,
+                "title": "Data Structures in Python",
+                "comments": [
+                  {
+                    "commentId": 1017,
+                    "text": "Understanding data structures is crucial."
+                  },
+                  {
+                    "commentId": 1018,
+                    "text": "Python's built-in data structures are handy."
+                  }
+                ]
+              },
+              {
+                "postId": 110,
+                "title": "Algorithm Design Patterns",
+                "comments": [
+                  {
+                    "commentId": 1019,
+                    "text": "Algorithms are fascinating!"
+                  },
+                  {
+                    "commentId": 1020,
+                    "text": "Great insights into design patterns."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Eva Davis",
+            "posts": [
+              {
+                "postId": 111,
+                "title": "Machine Learning Basics",
+                "comments": [
+                  {
+                    "commentId": 1021,
+                    "text": "Excited to dive into machine learning."
+                  },
+                  {
+                    "commentId": 1022,
+                    "text": "Clear explanations for beginners."
+                  }
+                ]
+              },
+              {
+                "postId": 112,
+                "title": "Deep Learning with TensorFlow",
+                "comments": [
+                  {
+                    "commentId": 1023,
+                    "text": "TensorFlow is a powerful tool for deep learning."
+                  },
+                  {
+                    "commentId": 1024,
+                    "text": "Looking forward to advanced topics."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "David Lee",
+            "posts": [
+              {
+                "postId": 113,
+                "title": "Introduction to SQL",
+                "comments": [
+                  {
+                    "commentId": 1025,
+                    "text": "SQL is essential for database management."
+                  },
+                  {
+                    "commentId": 1026,
+                    "text": "Thanks for the SQL query examples."
+                  }
+                ]
+              },
+              {
+                "postId": 114,
+                "title": "Database Design Principles",
+                "comments": [
+                  {
+                    "commentId": 1027,
+                    "text": "Designing databases requires careful planning."
+                  },
+                  {
+                    "commentId": 1028,
+                    "text": "Great insights into normalization."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Grace Miller",
+            "posts": [
+              {
+                "postId": 115,
+                "title": "Responsive Web Design",
+                "comments": [
+                  {
+                    "commentId": 1029,
+                    "text": "Designing for different devices is crucial."
+                  },
+                  {
+                    "commentId": 1030,
+                    "text": "CSS frameworks make it easier."
+                  }
+                ]
+              },
+              {
+                "postId": 116,
+                "title": "UI/UX Design Principles",
+                "comments": [
+                  {
+                    "commentId": 1031,
+                    "text": "User experience is key in design."
+                  },
+                  {
+                    "commentId": 1032,
+                    "text": "Looking forward to more design tips."
+                  }
+                ]
+              }
+            ]
+          }
+      ]
+  }
+  
